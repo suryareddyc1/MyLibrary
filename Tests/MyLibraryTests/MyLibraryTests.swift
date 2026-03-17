@@ -1,12 +1,10 @@
 import XCTest
 @testable import MyLibrary
 
-final class MyLibraryTests: XCTestCase {
-    func testExample() throws {
-        // XCTest Documentation
-        // https://developer.apple.com/documentation/xctest
+final class CalculatorTests: XCTestCase {
 
-        // Defining Test Cases and Test Methods
-        // https://developer.apple.com/documentation/xctest/defining_test_cases_and_test_methods
+    func testAddition() {
+        let calc = Calculator()
+        XCTAssertEqual(calc.add(2, 3), 5)
     }
 }
