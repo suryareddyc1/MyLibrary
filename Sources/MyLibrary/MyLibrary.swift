@@ -7,4 +7,8 @@ public struct Calculator {
     public func add(_ a: Int, _ b: Int) -> Int {
         return a + b
     }
+    
+    public func sub(_ a: Int, _ b: Int) -> Int {
+        return a - b
+    }
 }
