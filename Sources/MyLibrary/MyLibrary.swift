@@ -2,7 +2,7 @@
 // https://docs.swift.org/swift-book
 
 open class Calculator {
-    public init() {}
+    open init() {}
 
     public func add(_ a: Int, _ b: Int) -> Int {
         return a + b
